@@ -8,10 +8,13 @@
 }
 
 img.card-img-top {
-    margin-bottom: 10px; /* Adjust the value as needed */
-	width: auto;
-	height: 280px;
-  }
+    margin-bottom: 20px; /* Increased spacing */
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    max-height: 280px;
+    object-fit: contain;
+}
 
 #Banner {
 	/* background-image: url('../assets/img/background3.jpg');  */
@@ -27,7 +30,7 @@ img.card-img-top {
 
 a {
 	color: #1a73e8;
-  }
+}
 
 a:hover {
     color: #1a73e8;
