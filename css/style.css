@@ -1,5 +1,5 @@
 .custom-link {
-    color: #1a73e8; 
+    color: #4dabf7; 
     /* text-decoration: underline; */
 }
 
@@ -10,12 +10,13 @@
 img.card-img-top {
     margin-bottom: 10px; /* Adjust the value as needed */
 	width: auto;
-	height: 280px;
+	height: auto;
+	/* height: 280px; */
   }
 
 #Banner {
 	/* background-image: url('../assets/img/background3.jpg');  */
-  	background-color: #1a73e8; 
+  	background-color: #4dabf7; 
  	/*height: 15vh;  */
   	/*background-position: 50% 65%; */
   	/*background-position: 50% 37%; */
@@ -26,9 +27,9 @@ img.card-img-top {
 }
 
 a {
-	color: #1a73e8;
+	color: #4dabf7;
   }
 
 a:hover {
-    color: #1a73e8;
+    color: #4dabf7;
 }
