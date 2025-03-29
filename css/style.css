@@ -8,11 +8,12 @@
 }
 
 img.card-img-top {
-    margin-bottom: 10px; /* Adjust the value as needed */
-	width: 285px;
-	height: 285px;
-	/* height: 280px; */
-  }
+    margin-bottom: 10px; /* More spacing below the image */
+    width: 100%; /* Take full width of parent container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't overflow */
+    object-fit: cover; /* Cover the area nicely */
+}
 
 #Banner {
 	/* background-image: url('../assets/img/background3.jpg');  */
@@ -28,7 +29,7 @@ img.card-img-top {
 
 a {
 	color: #4dabf7;
-  }
+}
 
 a:hover {
     color: #4dabf7;
